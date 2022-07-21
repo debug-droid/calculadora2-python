@@ -35,7 +35,7 @@ def calculator():
 
         question_continue = int(input('Digite 0 para sair ou 1 para continuar: \n'))
         if question_continue != 0 or question_continue != 1:
-            print('Digite uma opção válida: 0 para para e 1 para continuar.')
+            print('Digite uma opção válida: 0 para parar e 1 para continuar.')
         elif question_continue == 1:
             continue
         else:
